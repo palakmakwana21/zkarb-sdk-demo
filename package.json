@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "compile": "zkarb-sdk compile ./circuits/simple.circom",
-    "test": "zkarb-sdk test ./simple ./inputs/input.json"
+    "test": "zkarb-sdk test ./simple ./inputs/input.json",
+    "final": "node abcd.js"
   },
   "dependencies": {
     "zkarb-sdk": "1.0.5"
